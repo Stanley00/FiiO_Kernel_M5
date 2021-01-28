@@ -28,9 +28,10 @@ and modules in 'sound/soc/ingenic' directory
 
 3. To build 'recovery' image you need to place nand-root.cpio to 'linux-recovery/client-side/'
 or change the path in 'arch/mips/configs/halley2_sfcnand_recovery_defconfig' 
-CONFIG_INITRAMFS_SOURCE="linux-recovery/client-side/root-nand.cpio"
+CONFIG_INITRAMFS_SOURCE="../linux-recovery/client-side/root-nand.cpio"
 then  run commands from 'kenel_M5' directory
 
+  make halley2_sfcnand_recovery_defconfig
   make recovery
 
 you'll find compiled 'recovery' image in 'arch/mips/boot/zcompressed' directory
