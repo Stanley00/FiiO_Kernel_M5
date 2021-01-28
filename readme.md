@@ -1,5 +1,6 @@
 'uboot-tools' package provides 'mkimage' utility. I use 2020.10 version.
 Outdated prebuilded tools form Ingenic placed on 'tools/host'
+
 0. Grab mips-gcc472-glibc216 toolchain
 https://github.com/Ozzyminted/ingenic-toolchains
 and place the content to 'tools/toolchains/mips-gcc472-glibc216'
