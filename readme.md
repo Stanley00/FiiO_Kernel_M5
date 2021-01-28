@@ -32,6 +32,7 @@ CONFIG_INITRAMFS_SOURCE="../linux-recovery/client-side/root-nand.cpio"
 then  run commands from 'kenel_M5' directory
 
   make halley2_sfcnand_recovery_defconfig
+
   make recovery
 
 you'll find compiled 'recovery' image in 'arch/mips/boot/zcompressed' directory
