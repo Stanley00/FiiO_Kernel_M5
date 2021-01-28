@@ -15,7 +15,7 @@ and if you need set path to image build utilities (mkimage, mkfs.ubifs, etc)
 
   export PATH="../tools/host":$PATH
 
-2. To compile kernel and modules run commands from 'kenel_M5' directory
+2. To compile kernel and modules run commands from 'kernel_M5' directory
 
   make halley2_linux_sfcnand_mass_defconfig
   
